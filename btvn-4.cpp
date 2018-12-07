@@ -4,6 +4,7 @@ int main (){
 	cout << "=====BANG CUU CHUONG====="<<endl;
 	
 	for (int i=1;i<=10;i++){
+		cout<< "\t";
 		for (int n=1;n<=10;n++){
 			cout << i<<" * "<<n<<" = "<< i*n<< endl;
 		}cout << endl;
